@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FBbook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Facebooktest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bit.test.UnitTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="terget"/>
+          <include name="Setup"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.bit.test.UnitTest -->
+    </classes>
+  </test> <!-- Facebooktest(failed) -->
+</suite> <!-- Failed suite [FBbook] -->

@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Primemark">
+
+	<test name="Primetest">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://www.primark.com/en-us"></parameter>
+		<classes>
+		
+			<class name="com.bit.test.SmokeTest"></class>
+		</classes>
+	</test>
+
+</suite>

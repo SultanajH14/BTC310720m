@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="target">
+
+	<test name="tergettest">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://www.target.com/"></parameter>
+
+		<classes>
+		
+			<class name="com.bit.test.SmokeTest"></class>
+		</classes>
+	</test>
+
+</suite>

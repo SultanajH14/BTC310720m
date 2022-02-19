@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [anyname]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="anyname(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.target.com/"/>
+    <classes>
+      <class name="com.bit.test.IntregationTest">
+        <methods>
+          <include name="targetmanu"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.bit.test.IntregationTest -->
+    </classes>
+  </test> <!-- anyname(failed) -->
+</suite> <!-- Failed suite [anyname] -->

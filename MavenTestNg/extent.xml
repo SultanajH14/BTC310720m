@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FBbook">
+
+	<test name="Facebooktest">
+		<parameter name="browser" value="chrome"></parameter>
+
+
+
+
+		<classes>
+
+			<class name="com.bit.test.UnitTest"></class>
+		</classes>
+	</test>
+
+
+</suite>

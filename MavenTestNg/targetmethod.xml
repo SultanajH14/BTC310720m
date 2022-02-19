@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="anyname">
+	<test name="anyname">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.target.com/"></parameter>
+	<classes>
+		<class name="com.bit.test.IntregationTest">
+			<methods>
+				<include name="targetmanu"></include>
+			</methods>
+
+		</class>
+		
+		</classes>
+	</test>
+</suite>
