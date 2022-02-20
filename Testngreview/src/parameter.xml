@@ -1,0 +1,15 @@
+<suite name= "anyname">
+<test name = "anyname">
+
+<parameter name = "browser" value = "chrome"></parameter>
+<parameter name = "url" value = "www.google.com"></parameter>
+</test>
+<classes>
+<class name = "com.bit.test.BaseTest"></class>
+</classes>
+
+
+
+
+
+</suite>
